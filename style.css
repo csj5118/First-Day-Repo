@@ -1,0 +1,22 @@
+/* this is a comment for css */
+/* *{ will make the entire page follow the pattern below */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* now if we want to section off specific parts we will add class and id specific rules */
+/* please refer back to the index.html to see which section is class (class) specific */
+#teach-all{
+    font-size : 18px;
+    color : white;
+    background-color: rgb(48, 50, 180);
+}
+
+/* now i want to experiment the same with .class */
+
+.class{
+    font-size: 20px;
+    color: green;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
